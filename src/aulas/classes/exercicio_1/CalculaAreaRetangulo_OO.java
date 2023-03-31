@@ -18,8 +18,7 @@ public class CalculaAreaRetangulo_OO {
 
     objetoRetangulo.gravarAlturaLarguraRetangulo(altura, largura);
 
-    objetoRetangulo.exibe(altura, largura, objetoRetangulo.calculaAreaRetangulo(),
-        objetoRetangulo.calculaPerimetroRetangulo());
+    objetoRetangulo.exibe();
 
     sc.close();
   }

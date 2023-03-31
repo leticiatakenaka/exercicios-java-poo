@@ -22,7 +22,8 @@ public class Retangulo {
   // ➢ Largura: largura
   // ➢ Área: área
   // ➢ Perímetro: perímetro.
-  public void exibe(float altura, float largura, float area, float perimetro) {
-    System.out.format("Altura:  %.2f\nLargura:  %.2f\nÀrea:  %.2f\nPerímetro:  %.2f", altura, largura, area, perimetro);
+  public void exibe() {
+    System.out.format("Altura:  %.2f\nLargura:  %.2f\nÀrea:  %.2f\nPerímetro:  %.2f", alturaRetangulo, larguraRetangulo,
+        calculaAreaRetangulo(), calculaPerimetroRetangulo());
   }
 }
