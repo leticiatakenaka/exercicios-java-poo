@@ -1,4 +1,4 @@
-package aulas.classes.exemplo_1;
+package aulas.classes.exercicio_2;
 
 public class ContaCorrente {
 	private int numeroConta, agenciaConta;

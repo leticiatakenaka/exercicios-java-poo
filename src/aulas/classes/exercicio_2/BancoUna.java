@@ -1,4 +1,4 @@
-package aulas.classes.exemplo_1;
+package aulas.classes.exercicio_2;
 
 import java.util.Scanner;
 
