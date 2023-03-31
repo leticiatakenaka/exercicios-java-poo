@@ -14,7 +14,7 @@ public class ExibeFuncionario {
     int idade;
 
     System.out.print("Digite o nome do funcionário: ");
-    nome = scanner.nextLine();
+    nome = scanner.next();
 
     System.out.print("Digite a idade do funcionário: ");
     idade = scanner.nextInt();
