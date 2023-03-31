@@ -11,7 +11,11 @@ public class ContaCorrente {
 	}
 
 	public void sacar(double valor) {
-		saldo = saldo - valor;
+		if (valor < saldo) {
+			saldo = saldo - valor;
+			return;
+		}
+		System.out.println("Não é possível sacar um valor maior do que o saldo!");
 	}
 
 	public void depositar(double valor) {
@@ -27,9 +31,7 @@ public class ContaCorrente {
 	// ➢ Agência: agencia
 	// ➢ Conta: conta
 	// ➢ Saldo: R$ saldo.
-	public void exibe(int agencia, int conta, int saldo) {
-		System.out.format("Agência:  %.3", agencia);
-		System.out.format("Conta:  %.3", conta);
-		System.out.format("Saldo:  %.3", saldo);
+	public void exibe() {
+		System.out.format("Agência:  %s | Conta: %s\nSaldo: R$ %.2f", agenciaConta, numeroConta, saldo);
 	}
 }
