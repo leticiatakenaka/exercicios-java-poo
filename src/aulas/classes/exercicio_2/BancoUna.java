@@ -14,11 +14,11 @@ public class BancoUna {
 		double valorDeposito = 0.0, valorSaque = 0.0;
 		int agencia, conta;
 
-		// Define o número da conta e da agência
-		System.out.print("Digite o numero da conta: ");
-		conta = inputTerminal.nextInt();
+		// Define o número da agência e da conta
 		System.out.print("Digite o numero da agência: ");
 		agencia = inputTerminal.nextInt();
+		System.out.print("Digite o numero da conta: ");
+		conta = inputTerminal.nextInt();
 
 		minhaConta.inicializarContaCorrente(conta, agencia);
 
